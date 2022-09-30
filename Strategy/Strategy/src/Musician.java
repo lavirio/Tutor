@@ -1,5 +1,5 @@
 public class Musician {
-  Instrument instrument;
+  private Instrument instrument;
 
     public Musician(Instrument instrument) {
         this.instrument = instrument;

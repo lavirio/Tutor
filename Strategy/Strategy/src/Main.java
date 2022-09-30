@@ -3,6 +3,7 @@ public class Main {
         Musician musician = new Musician(new Guitar());
 
         musician.startPlay();
+        System.out.println();
         musician.setInstrument(new Piano());
         musician.startPlay();
 
